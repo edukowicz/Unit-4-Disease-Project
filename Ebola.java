@@ -9,8 +9,8 @@ public class Ebola {
         symptoms = symptoms1;
     }
 
-    public void addSymptoms(String symptoms2) {
-        symptoms = symptoms + " and " + symptoms2;
+    public void changeSymptoms(String symptoms2) {
+        symptoms = symptoms2;
     }
 
     public boolean diagnosis(){
